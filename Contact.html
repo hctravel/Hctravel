@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docteur</title>
+    <link rel="icon" href="logo.jpg">
+
+    <STyle>
+        body {
+            width: 100%;
+            padding: auto;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+        }
+
+        .section {
+            display: flex;
+            justify-content: center;;
+            padding: 60px;
+            border-radius: 10px;
+            background-color: rgb(172, 192, 255);
+            width: 100%;
+        }
+
+        .section p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .navi {
+            display: flex;
+            justify-content: right;
+            gap: 50px;
+            border-radius: 7px;
+            width: 100%;
+            padding-right: 200px;
+        }
+
+        nav a {
+            color: red;
+            text-decoration: none;
+            font-size: x-large;
+        }
+
+        .back {
+            padding-top: 20px;
+            background-color: rgb(172, 192, 255);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white; 
+            font-size: 14px;
+        }
+
+        .grp-form {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 4px 4px rgb(224, 224, 224);
+            width: 300px;
+        }
+
+        .grp-form input {
+            width: 95%;
+            padding: 10px;
+            margin-top: 15px;
+            border: 1px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 5px rgb(240, 240, 240);
+            border-width: 1px;
+            border: 1px solid rgb(240, 240, 240);
+        }
+
+        .grp-form button {
+            width: 102%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .grp-form a {
+            color: #0080ff;
+        }
+
+        .grp-form a:hover {
+            background: linear-gradient(to right, #ff4800, #ff4e4e);
+        }
+
+        .login-btn {
+            background: linear-gradient(to right, #ff4800, #ff4e4e);
+        }
+
+        .signup-btn {
+            background: linear-gradient(to right, #ff4800, #ff4e4e);
+        }
+
+        .grp-form textarea {
+            width: 95%;
+            padding: 10px;
+            margin-top: 15px;
+            border: 1px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 5px rgb(240, 240, 240);
+            border-width: 1px;
+            border: 1px solid rgb(240, 240, 240);
+        }
+    </STyle>
+</head>
+<body>
+    <header>
+        <img src="/statique website - TP/resources/logo.png" alt="logo">
+
+        <nav class="navi">
+            <a href="/statique website - TP/Homepage.html">Home</a>
+            <a href="/statique website - TP/Destination.html">destinations</a>
+            <a href="/statique website - TP/About.html">About</a>
+            <a href="/statique website - TP/Contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="section">
+    <section class="grp-form">
+        <h2>Résérvez un Rendez vous</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Entrer your family name" required>
+            <input type="text" name="surname" placeholder="Entrer your first name" required>
+            <input type="number" name="number" placeholder="Entrer your phone number" required>
+            <textarea name="message" placeholder="Describe your situation" rows="4" required></textarea>
+            <button type="submit" class="signup-btn">ENVOYER</button>
+        </form>
+    </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sky Travel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
